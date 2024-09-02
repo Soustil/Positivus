@@ -56,4 +56,5 @@ const close = document.querySelector('.close');
 mobileBtn.addEventListener('click', function(){
     menu.classList.toggle('menu-opened');
     mobileBtn.classList.toggle('close');
+    document.body.classList.toggle('over1');
 });
